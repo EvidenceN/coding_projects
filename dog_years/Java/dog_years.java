@@ -2,7 +2,7 @@ public class dog_years {
     public static void main(String[] args) {
         int myAge = 27;
 
-        int earlyYears = 2;
+        double earlyYears = 2;
 
         earlyYears *= 10.5;
 
