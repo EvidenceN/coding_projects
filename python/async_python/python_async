@@ -1,0 +1,15 @@
+import asyncio
+
+async def say_hello():
+    print("Hello!")
+    await asyncio.sleep(10)  # Simulate an I/O operation using sleep
+    print("Hello again after 10 second!")
+
+async def main():
+    print("Start")
+    await say_hello()  # Await a coroutine
+    print("End")
+
+# Python 3.7+
+asyncio.run(main())
+

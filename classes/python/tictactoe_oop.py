@@ -31,6 +31,7 @@ def main():
         currentPlayer, nextPlayer = nextPlayer, currentPlayer  # Swap turns.
     print('Thanks for playing!')
 
+# Individual Components of tic-tac-toe
 class TTTBoard:
     def __init__(self, usePrettyBoard=False, useLogging=False):
         """Create a new, blank tic tac toe board."""
@@ -46,6 +47,7 @@ class TTTBoard:
       {self._spaces['4']}|{self._spaces['5']}|{self._spaces['6']}  4 5 6
       -+-+-
       {self._spaces['7']}|{self._spaces['8']}|{self._spaces['9']}  7 8 9'''
+
 
     def isValidSpace(self, space):
         """Returns True if the space on the board is a valid space number
