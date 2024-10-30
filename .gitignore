@@ -1,0 +1,3 @@
+audio_transcription/.venv
+audio_transcription/whisper_env
+python/__pycache__/*
